@@ -1,6 +1,4 @@
-.elevatelogo{
-    width: 30%;
-    padding: 8px;
-    margin: 0;
-    
+.logo{
+    width: 250px;
+    cursor: pointer;
 }
