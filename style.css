@@ -24,7 +24,7 @@ body{
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 4.469987228607918vh 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@ body{
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 1.25vw;
     position: relative;
 }
 .navbar ul li a{
@@ -42,12 +42,12 @@ body{
 }
 .navbar ul li::after{
     content: '';
-    height: 3px;
+    height: 0.3831417624521073vh;
     width: 0;
     background: rgb(117, 33, 47);
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -1.277139208173691vh;
     transition: 0.5s;
 }
 .navbar ul li:hover:after{
@@ -62,24 +62,24 @@ body{
     color: #fff;
 }
 .content h1{
-    font-size: 70px;
-    margin-top: 80px;
+    font-size: 4.375vw;
+    margin-top: 10.217113665389528vh;
 }
 .content p{
-    margin: 20px auto;
-    font-size: 18px;
+    margin: 2.554278416347382vh auto;
+    font-size: 1.125vw;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 3.1928480204342273vh;
 }
 .A{
     color: red;
 }
 button{
-    width: 200px;
-    padding: 15px 0;
+    width: 12.5vw;
+    padding: 1.9157088122605364vh 0;
     text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
+    margin: 2.554278416347382vh 0.625vw;
+    border-radius: 1.5625vw;
     font-weight: bold;
     border: 2px solid rgb(117, 33, 47);
     background: transparent;
@@ -92,7 +92,7 @@ button{
     background: rgb(117, 33, 47);
     height: 100%;
     width: 0;
-    border-radius: 25px;
+    border-radius: 1.5625vw;
     position: absolute;
     left: 0;
     bottom: 0;
