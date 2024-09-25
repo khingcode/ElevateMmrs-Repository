@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(117, 33, 47);
+    background-color: rgb(255, 255, 255);
 }
 .banner{
     width: 100%;
@@ -20,11 +20,13 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/photo1.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 70px;
+    
 }
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 4.469987228607918vh 0;
+    padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +34,7 @@ body{
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 1.25vw;
+    margin: 0 20px;
     position: relative;
 }
 .navbar ul li a{
@@ -42,12 +44,12 @@ body{
 }
 .navbar ul li::after{
     content: '';
-    height: 0.3831417624521073vh;
+    height: 3px;
     width: 0;
     background: rgb(117, 33, 47);
     position: absolute;
     left: 0;
-    bottom: -1.277139208173691vh;
+    bottom: -10px;
     transition: 0.5s;
 }
 .navbar ul li:hover:after{
@@ -62,26 +64,26 @@ body{
     color: #fff;
 }
 .content h1{
-    font-size: 4.375vw;
-    margin-top: 10.217113665389528vh;
+    font-size: 70px;
+    margin-top: 80px;
 }
 .content p{
-    margin: 2.554278416347382vh auto;
-    font-size: 1.125vw;
+    margin: 20px auto;
+    font-size: 18px;
     font-weight: 100;
-    line-height: 3.1928480204342273vh;
+    line-height: 25px;
 }
 .A{
     color: red;
 }
 button{
-    width: 12.5vw;
-    padding: 1.9157088122605364vh 0;
+    width: 200px;
+    padding: 15px 0;
     text-align: center;
-    margin: 2.554278416347382vh 0.625vw;
-    border-radius: 1.5625vw;
+    margin: 20px 10px;
+    border-radius: 25px;
     font-weight: bold;
-    border: 2px solid rgb(117, 33, 47);
+    border: 2px solid rgb(88, 17, 28);
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -89,19 +91,49 @@ button{
     overflow: hidden;
 }
 .editbutton{
-    background: rgb(117, 33, 47);
+    background: rgb(88, 17, 28);
     height: 100%;
     width: 0;
-    border-radius: 1.5625vw;
+    border-radius: 25px;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.67s;
+    transition: 0.5s;
 }
 button:hover .editbutton{
     width: 100%;
 }
 button:hover{
     border: none;
+}
+
+/* about */
+.about{
+    display: flex;
+    height: 400px;
+}
+.row1{
+    /* width: 50%; */
+    padding: 0px 0px 0px 150px; /*top right bottom left*/
+}
+.row1 img{
+    width: 450px;
+    height: 350px;
+}
+.row2 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 50px;
+}
+.row2 h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* dgroup*/
+.dgroup{
+    display: flex;
+    height: 300px;
 }
